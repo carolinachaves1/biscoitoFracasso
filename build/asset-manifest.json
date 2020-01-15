@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/biscoitodofracasso/static/css/main.8c2d91c1.chunk.css",
+    "main.js": "/biscoitodofracasso/static/js/main.35071660.chunk.js",
+    "main.js.map": "/biscoitodofracasso/static/js/main.35071660.chunk.js.map",
+    "runtime~main.js": "/biscoitodofracasso/static/js/runtime~main.cf9d9e4b.js",
+    "runtime~main.js.map": "/biscoitodofracasso/static/js/runtime~main.cf9d9e4b.js.map",
+    "static/js/2.86c6c73c.chunk.js": "/biscoitodofracasso/static/js/2.86c6c73c.chunk.js",
+    "static/js/2.86c6c73c.chunk.js.map": "/biscoitodofracasso/static/js/2.86c6c73c.chunk.js.map",
+    "index.html": "/biscoitodofracasso/index.html",
+    "precache-manifest.3c465e72f64052400f1feda4f85f0a24.js": "/biscoitodofracasso/precache-manifest.3c465e72f64052400f1feda4f85f0a24.js",
+    "service-worker.js": "/biscoitodofracasso/service-worker.js",
+    "static/css/main.8c2d91c1.chunk.css.map": "/biscoitodofracasso/static/css/main.8c2d91c1.chunk.css.map",
+    "static/media/index.css": "/biscoitodofracasso/static/media/bg_universe.7d9c69b1.jpg",
+    "static/media/biscoito.png": "/biscoitodofracasso/static/media/biscoito.a2bd231c.png"
+  }
+}

@@ -1,0 +1,58 @@
+import React, { Component } from 'react';
+
+class App extends Component{
+
+    constructor(props){
+        super(props);
+        this.state = {
+            nome: "Matheus",
+            contador: 0
+
+        }
+
+        this.aumentar = this.aumentar.bind(this); //para que o setState funcione
+        this.diminuir = this.diminuir.bind(this); //para que o setState funcione
+    }
+
+    aumentar(){
+
+        let state = this.state;
+        state.contador += 1;
+        state.nome = "Carolina"
+
+        this.setState(state);
+    }
+
+    diminuir (){
+        let state = this.state;
+        if(state.contador === 0){
+            alert('Chegou a Zero');
+            
+        }
+        else{
+        state.contador -= 1;
+        state.nome = "asfasfa"
+        this.setState(state);
+        }
+
+    }
+
+    render(){
+        return(
+            <div>
+                <h1>{this.state.nome}</h1>
+                <h1>Contador</h1>
+                <h3>
+                    <button onClick={this.diminuir}> - </button>  
+                    {this.state.contador}
+                    <button onClick={this.aumentar}> + </button>
+                    </h3>
+            </div>
+
+        );
+
+    }
+
+}
+
+export default App;

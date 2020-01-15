@@ -1,0 +1,44 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+.textoFrase{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+
+}
+
+#bnt {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 24px;
+    background: #604a8a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background: #8f6384;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #8f6384;
+    text-decoration: none;
+  }
